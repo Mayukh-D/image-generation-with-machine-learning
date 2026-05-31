@@ -74,16 +74,16 @@ Using the best configuration (x-pred + x-loss, D=32), we evaluate sample quality
 MeanFlow learns the *average velocity* over trajectory intervals using Jacobian-vector products, enabling generation in a single forward pass.
 
 <p align="center">
-  <img src="figures/part4.2/meanflow_swiss_roll_D32_1steps_final47.png" width="700"/>
+  <img src="figures/part4.2/meanflow_swiss_roll_D32_5steps_final47.png" width="700"/>
 </p>
 <p align="center">
-  <img src="figures/part4.2/meanflow_gaussians_D32_1steps_final47.png" width="700"/>
+  <img src="figures/part4.2/meanflow_gaussians_D32_5steps_final47.png" width="700"/>
 </p>
 <p align="center">
-  <img src="figures/part4.2/meanflow_circles_D32_1steps_final47.png" width="700"/>
+  <img src="figures/part4.2/meanflow_circles_D32_5steps_final47.png" width="700"/>
 </p>
 
-> **One-step MeanFlow results.** Swiss roll and circles are recovered cleanly. Gaussians show mode concentration — a structural artifact of averaging velocity across multi-modal distributions.
+> **MeanFlow at 5 steps.** Swiss roll and circles are recovered cleanly with sharp structure. Gaussians show mode concentration — a structural artifact of averaging velocity across multi-modal distributions. Even at 1 step, swiss_roll and circles produce recognisable structure.
 
 ---
 
