@@ -1,3 +1,6 @@
+# OS
+.DS_Store
+
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -8,7 +11,16 @@ wheels/
 
 # Virtual environments
 .venv
-data
-checkpoints*
-results
-__pycache__/
+
+# Data and checkpoints
+data/
+checkpoints*/
+results/
+*.pt
+
+# Drafts and scratch files
+*.docx
+part4.2_figure/names.csv
+script.py
+meanflow_3x3_grid_script.py
+part3_width_sweep_script.py
