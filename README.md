@@ -32,7 +32,7 @@ figures/
 ## Running
 
 ```bash
-pip install -r requirements.txt
+uv sync            # install dependencies from pyproject.toml
 python part1.py
 python part2.py
 python part3.py
